@@ -1,0 +1,15 @@
+[package]
+name = "telemetry-sh"
+version = "1.0.0"
+authors = ["JR R <thebuilderjr93@gmail.com>"]
+description = "A simple telemetry logging SDK for Rust."
+homepage = "https://github.com/telemetry-sh/telemetry-rust"
+repository = "https://github.com/telemetry-sh/telemetry-rust"
+license = "MIT"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
